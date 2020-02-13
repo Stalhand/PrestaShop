@@ -1,0 +1,6 @@
+#surefire
+#Wed Feb 12 11:06:19 CET 2020
+user.dir=C\:\\Users\\46707\\workspace\\PrestaShop
+webdriver.chrome.driver=C\:\\\\Users\\\\46707\\\\workspace\\\\tools\\\\chromedriver.exe
+localRepository=C\:\\Users\\46707\\.m2\\repository
+basedir=C\:\\Users\\46707\\workspace\\PrestaShop

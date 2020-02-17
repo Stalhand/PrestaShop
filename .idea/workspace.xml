@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b838721d-bf4b-4e63-b6f8-f937d9f4dc41" name="Default Changelist" comment="" />
+    <list default="true" id="b838721d-bf4b-4e63-b6f8-f937d9f4dc41" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/PagesPrestashop/CreateAccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PagesPrestashop/SignInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PagesPresta/CreateAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PagesPresta/PrestaShopTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PrestaShopTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PagesPresta/SigninTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SigninTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PagesPresta/PrestaShopTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SigninTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SigninTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,15 +50,18 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="PagesPresta" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CreateAccountTest">
+  <component name="RunManager" selected="JUnit.SigninTest">
     <configuration name="CreateAccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PrestaShop" />
-      <option name="PACKAGE_NAME" value="PagesPresta" />
-      <option name="MAIN_CLASS_NAME" value="PagesPresta.CreateAccountTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CreateAccountTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -57,7 +69,7 @@
     </configuration>
     <configuration name="SigninTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PrestaShop" />
-      <option name="PACKAGE_NAME" value="PagesPresta" />
+      <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SigninTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
@@ -66,7 +78,7 @@
     </configuration>
     <configuration name="SigninTest.signin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PrestaShop" />
-      <option name="PACKAGE_NAME" value="PagesPresta" />
+      <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SigninTest" />
       <option name="METHOD_NAME" value="signin" />
       <option name="TEST_OBJECT" value="method" />
@@ -76,9 +88,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CreateAccountTest" />
         <item itemvalue="JUnit.SigninTest" />
         <item itemvalue="JUnit.SigninTest.signin" />
+        <item itemvalue="JUnit.CreateAccountTest" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +192,14 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="371" y="125" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1581945373367">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="125" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1581945373367" />
+    <state x="443" y="210" width="393" height="265" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581946412306">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="443" y="210" width="393" height="265" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1581946412306" />
     <state x="93" y="93" width="1094" height="494" key="DiffContextDialog" timestamp="1581779434020">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -188,22 +208,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="420" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1581766020523" />
-    <state width="1237" height="208" key="GridCell.Tab.0.bottom" timestamp="1581776042074">
+    <state width="1237" height="208" key="GridCell.Tab.0.bottom" timestamp="1581951694172">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581776042074" />
-    <state width="1237" height="208" key="GridCell.Tab.0.center" timestamp="1581776042074">
+    <state width="1237" height="208" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581951694172" />
+    <state width="1237" height="208" key="GridCell.Tab.0.center" timestamp="1581951694172">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581776042074" />
-    <state width="1237" height="208" key="GridCell.Tab.0.left" timestamp="1581776042074">
+    <state width="1237" height="208" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581951694172" />
+    <state width="1237" height="208" key="GridCell.Tab.0.left" timestamp="1581951694172">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581776042074" />
-    <state width="1237" height="208" key="GridCell.Tab.0.right" timestamp="1581776042074">
+    <state width="1237" height="208" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581951694172" />
+    <state width="1237" height="208" key="GridCell.Tab.0.right" timestamp="1581951694172">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581776042074" />
+    <state width="1237" height="208" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581951694172" />
     <state x="151" y="0" key="SettingsEditor" timestamp="1581779598382">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -216,9 +236,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1094" height="494" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1581779434020" />
-    <state x="452" y="260" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581779634301">
+    <state x="452" y="260" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581951865245">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="452" y="260" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1581779634301" />
+    <state x="452" y="260" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1581951865245" />
   </component>
 </project>

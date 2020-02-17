@@ -2,50 +2,54 @@
 import org.junit.Test;
 import org.junit.Before;
 import org.junit.After;
-import static org.junit.Assert.*;
+
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.core.IsNot.not;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.Dimension;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.Keys;
+
 import java.util.*;
-import java.net.MalformedURLException;
-import java.net.URL;
+import PagesPrestashop.*;
+
 public class SigninTest {
   private WebDriver driver;
+  private WebDriverWait wait;
   private Map<String, Object> vars;
   JavascriptExecutor js;
+
   @Before
   public void setUp() {
     driver = new ChromeDriver();
+    wait = new WebDriverWait(driver, 20);
     js = (JavascriptExecutor) driver;
     vars = new HashMap<String, Object>();
   }
+
   @After
   public void tearDown() {
     driver.quit();
   }
+
+  //@Test
+  //create account methed
   @Test
   public void signin() throws InterruptedException {
     driver.get("http://demo.prestashop.com/");
-    Thread.sleep(6000);
-    driver.switchTo().frame(0);
-    Thread.sleep(6000);
+    wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(0));
+    //driver.switchTo().frame(0);
+    //wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".user-info .material-icons")));
+    wait.until(ExpectedConditions.elementToBeClickable(SignInPage.loginGubbe(driver)));
+            // Klickar på Sign in knappen Gubben Login
     driver.findElement(By.cssSelector(".user-info .material-icons")).click();
-    driver.findElement(By.name("email")).click();
-    driver.findElement(By.name("email")).sendKeys("lime@test.com");
+    wait.until(ExpectedConditions.elementToBeClickable(By.name("email")));
+    SignInPage.emailField(driver).sendKeys("lime@test.com");
+    //driver.findElement(By.name("email")).sendKeys("lime@test.com");
     driver.findElement(By.name("password")).sendKeys("lime90");
     driver.findElement(By.id("submit-login")).click();
+
   }
 }
